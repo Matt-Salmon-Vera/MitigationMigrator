@@ -74,15 +74,14 @@ This repository contains **MitigationMigrator**, a Python CLI tool that parses V
 2. Create and activate a virtual environment:
     
     ``` bash
-    python3 -m venv venv source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
     ```
 3. Install the required packages:
-    
-    bash
-    
-    CopyEdit
-    
-    `pip install -r requirements.txt`
+
+    ``` bash
+    pip install -r requirements.txt
+    ```
     
 
 ---
