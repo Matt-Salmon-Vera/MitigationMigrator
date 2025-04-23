@@ -12,7 +12,7 @@ This repository contains **MitigationMigrator**, a Python CLI tool that parses V
     
 - [Prerequisites](#prerequisites)
     
-- Installation
+- [Installation](#Installation)
     
 - [API Authentication Options](#API)
     
