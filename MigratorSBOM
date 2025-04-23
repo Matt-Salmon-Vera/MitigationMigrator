@@ -1,0 +1,70 @@
+{
+  "vulnerabilities": {
+    "descriptor": {
+      "db": {
+        "built": "2025-04-23T01:31:41Z",
+        "checksum": "sha256:9e6f2eb6b464ce1836ae00f51a9e1720f778de18df1caae1c4b02efde1985ddd",
+        "error": null,
+        "location": "/var/folders/d8/07hvllgx0f767jdyfcsy9rlr0000gn/T/veracode_cli_cache/5",
+        "schemaVersion": 5
+      },
+      "name": "",
+      "timestamp": "2025-04-23T09:40:18.596822+01:00",
+      "version": ""
+    },
+    "distro": {
+      "idLike": null,
+      "name": "",
+      "version": ""
+    },
+    "matches": [],
+    "source": {
+      "target": ".",
+      "type": "directory"
+    }
+  },
+  "secrets": {
+    "ArtifactName": ".",
+    "ArtifactType": "filesystem",
+    "CreatedAt": "2025-04-23T09:40:09.053661+01:00",
+    "Metadata": {
+      "ImageConfig": {
+        "architecture": "",
+        "config": {},
+        "created": "0001-01-01T00:00:00Z",
+        "os": "",
+        "rootfs": {
+          "diff_ids": null,
+          "type": ""
+        }
+      }
+    },
+    "SchemaVersion": 2
+  },
+  "configs": {
+    "ArtifactName": ".",
+    "ArtifactType": "filesystem",
+    "CreatedAt": "2025-04-23T09:40:18.300835+01:00",
+    "Metadata": {
+      "ImageConfig": {
+        "architecture": "",
+        "config": {},
+        "created": "0001-01-01T00:00:00Z",
+        "os": "",
+        "rootfs": {
+          "diff_ids": null,
+          "type": ""
+        }
+      }
+    },
+    "SchemaVersion": 2
+  },
+  "policy-results": [
+    {
+      "filename": "root",
+      "namespace": "main",
+      "successes": 6
+    }
+  ],
+  "policy-passed": true
+}
