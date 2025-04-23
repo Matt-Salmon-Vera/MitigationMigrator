@@ -101,8 +101,7 @@ API Credentials File
 Create a file at ~/.veracode/credentials with a [default] profile:
 
 ini
-Copy
-Edit
+CopyEdit
 [default]
 veracode_api_key_id     = YOUR_API_ID
 veracode_api_key_secret = YOUR_API_SECRET
@@ -115,8 +114,7 @@ Environment Variables
 Export your keys as uppercase vars (Linux/macOS/UNIX):
 
 bash
-Copy
-Edit
+CopyEdit
 export VERACODE_API_KEY_ID="YOUR_API_ID"
 export VERACODE_API_KEY_SECRET="YOUR_API_SECRET"
 These are also read by the signing library in preference to any file 
