@@ -68,20 +68,14 @@ This repository contains **MitigationMigrator**, a Python CLI tool that parses V
 
 1. Clone this repository (or use your own fork):
     
-    bash
-    
-    CopyEdit
-    
-    `git clone https://github.com/YOUR_USER/MitigationMigrator.git cd MitigationMigrator`
-    
+    ``` bash
+    git clone https://github.com/YOUR_USER/MitigationMigrator.git cd MitigationMigrator`
+    ```
 2. Create and activate a virtual environment:
     
-    bash
-    
-    CopyEdit
-    
-    `python3 -m venv venv source venv/bin/activate`
-    
+    ``` bash
+    python3 -m venv venv source venv/bin/activate`
+    ```
 3. Install the required packages:
     
     bash
