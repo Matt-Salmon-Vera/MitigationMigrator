@@ -100,11 +100,12 @@ Your Veracode credentials can be provided to MitigationMigrator in any of these 
 API Credentials File
 Create a file at ~/.veracode/credentials with a [default] profile:
 
-ini
-CopyEdit
+``` ini
 [default]
 veracode_api_key_id     = YOUR_API_ID
 veracode_api_key_secret = YOUR_API_SECRET
+```
+
 The Veracode signing library (used by veracode_api_py and veracode_api_signing) will automatically pick this up when you call get_credentials() 
 Home | Veracode Docs
 Home | Veracode Docs
