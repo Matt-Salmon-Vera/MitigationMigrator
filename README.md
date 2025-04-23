@@ -114,10 +114,11 @@ Home | Veracode Docs
 Environment Variables
 Export your keys as uppercase vars (Linux/macOS/UNIX):
 
-bash
-CopyEdit
+``` bash
 export VERACODE_API_KEY_ID="YOUR_API_ID"
 export VERACODE_API_KEY_SECRET="YOUR_API_SECRET"
+```
+
 These are also read by the signing library in preference to any file 
 Home | Veracode Docs
 .
