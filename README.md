@@ -2,6 +2,8 @@
 
 This repository contains **MitigationMigrator**, a Python CLI tool that parses Veracode XML detail reports, extracts mitigation history, and applies consolidated annotations back into a Veracode application via the Veracode REST API. It supports fuzzy line-matching, single-shot annotation per flaw, and graceful handling of locked or already-approved issues.
 
+This Script was based off of the Veracode “Mitigation Copier” Script which Works to Copy over mitigations from one Veracode platform  Appprofile to another but requires API credentials of the orginal app profile  rather than accepting an XML report as a source. [Github](https://github.com/tjarrettveracode/veracode-mitigation-copier/tree/master)
+
 ---
 
 ## Table of Contents
@@ -185,4 +187,4 @@ CopyEdit
     
 - Signing logic guided by the **Veracode Python HMAC Example** from Veracode’s docs [GitHub](https://github.com/veracode/veracode-python-hmac-example?utm_source=chatgpt.com).
     
-- Original “Mitigation Copier” concept adapted for **single-shot annotations**.
+- Original “Mitigation Copier” concept adapted for **single-shot annotations**. [Github](https://github.com/tjarrettveracode/veracode-mitigation-copier/tree/master)
