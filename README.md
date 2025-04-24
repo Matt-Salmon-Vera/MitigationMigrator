@@ -1,4 +1,5 @@
 ## Summary
+[trigger pr scan]
 
 This repository contains **MitigationMigrator**, a Python CLI tool that parses Veracode XML detail reports, extracts mitigation history, and applies consolidated annotations back into a Veracode application via the Veracode REST API. It supports fuzzy line-matching, single-shot annotation per flaw, and graceful handling of locked or already-approved issues.
 
